@@ -25,20 +25,3 @@ const useOnline = (): boolean => {
 export default useOnline;
 
 
-
-
-// onPublish
-// import React from 'react';
-// import { useOnline } from 'use-online-hook';
-
-// const MyComponent: React.FC = () => {
-//   const isOnline = useOnline();
-
-//   return (
-//     <div>
-//       {isOnline ? <p>Snippet Online</p> : <p>Snippet offline.</p>}
-//     </div>
-//   );
-// };
-
-// export default MyComponent;
