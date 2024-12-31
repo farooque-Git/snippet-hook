@@ -1,0 +1,23 @@
+{
+  "name": "custom-hook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/react": "^19.0.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "rollup": "^4.29.1",
+    "tslib": "^2.8.1"
+  }
+}
