@@ -1,13 +1,13 @@
 {
   "name": "snippet-hook",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "main": "dist/index.js",
   "type": "module",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c"
   },
-  "keywords": [],
+  "keywords": ["react", "hook","custom-hook", "useOnline", "useForm", "customhook"],
   "author": "Farooque",
   "license": "Apache-2.0",
   "devDependencies": {
