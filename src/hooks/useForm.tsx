@@ -31,33 +31,3 @@ const useForm = <T extends Record<string, any>>({
 };
 
 export {useForm};
-
-
-// import useForm from 'your-package-name';
-
-// const MyFormComponent = () => {
-//   const [formValues, handleInputChange, resetForm] = useForm({
-//     initialValues: { name: '', email: '' },
-//   });
-
-//   const handleSubmit = () => {
-//     console.log(formValues);
-//   };
-
-//   return (
-//     <form onSubmit={handleSubmit}>
-//       <input
-//         name="name"
-//         value={formValues.name}
-//         onChange={handleInputChange}
-//       />
-//       <input
-//         name="email"
-//         value={formValues.email}
-//         onChange={handleInputChange}
-//       />
-//       <button type="button" onClick={resetForm}>Reset</button>
-//       <button type="submit">Submit</button>
-//     </form>
-//   );
-// };
