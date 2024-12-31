@@ -1,6 +1,6 @@
 
 <<<<<<< HEAD
-# Hocrux (A Custom Hook)
+# Snippet Hook (A Custom Hook)
 =======
 A simple and reusable custom hook for managing form state in React. This hook helps you manage form data, handle input changes, and reset the form with ease.
 >>>>>>> 4456f76 (Update README.md)
@@ -10,6 +10,7 @@ A simple and reusable custom hook for managing form state in React. The useForm 
 # Installation 
 You can install the package via npm or yarn:
 
+<<<<<<< HEAD
 
 ###  Using npm
 
@@ -43,9 +44,13 @@ Use the hook within your component
 ```bash
   import React from 'react';
 =======
+=======
+### Using npm:
+
+>>>>>>> 019b7d4 (Update README.md)
 npm install hocrux
 
-Using yarn:
+# Custom Hook
 bash
 Copy code
 yarn add hocrux
@@ -140,6 +145,11 @@ formData: The current state of the form data.
 handleChange: A function to update the form state on input change.
 
 resetForm: A function to reset the form to its initial values.
+<<<<<<< HEAD
+=======
+License
+MIT © Farooque Ali
+>>>>>>> 019b7d4 (Update README.md)
 
 
 <<<<<<< HEAD
@@ -167,11 +177,15 @@ Customization: Review any other details that might need adjusting, such as addit
 ### Key Improvements:
 1. **Formatting**: Fixed code blocks and made sure the syntax for markdown, JavaScript, and TypeScript is correct.
 2. **Clarity**: Added more explanatory text to the "Usage" and "API" sections to help users understand how to implement the hook.
-3. **License**: The `MIT` license section is now properly formatted. Replace `[Your Name]` with your actual name for copyright purposes.
+3. **License**: The `MIT` license section is now properly formatted. Replace `Farooque Ali` with your actual name for copyright purposes.
 
 ### Next Steps:
 - **Customization**: Make sure to update the **license** section with your name and check if any other details in the package need adjusting.
 - **Testing**: Ensure your README provides all the necessary info users need to get started with your package.
 
 Let me know if you'd like further adjustments!
+<<<<<<< HEAD
 >>>>>>> 4456f76 (Update README.md)
+=======
+```bash
+>>>>>>> 019b7d4 (Update README.md)
