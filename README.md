@@ -24,7 +24,7 @@ To deploy this package run
 ```
 
 
-###  Usage
+#  1. useForm
 To use the useForm hook in your React component, follow these steps:
 
 Import the hook:
@@ -87,14 +87,14 @@ handleChange: A function to handle input changes. It updates the form state when
 
 resetForm: A function to reset the form to its initial values.
 
-## Parameters:
+### Parameters:
 
 initialValues: An object containing the initial values for the form fields 
 ```bash
  (e.g., { username: '', email: '' })
 ```
 
-## Returns:
+### Returns:
 
 ### An array containing:
 
@@ -103,6 +103,90 @@ formData: The current state of the form data.
 handleChange: A function to update the form state on input change.
 
 resetForm: A function to reset the form to its initial values.
+
+#  2. useOnline
+To use the useOnline hook in your React component, follow these steps:
+
+Import the hook:
+
+```bash
+  import { useOnline } from 'snippet-hook';
+
+```
+
+Use the hook within your component
+```bash
+  import React from 'react';
+import { useOnline } from 'use-online-hook';
+
+const MyComponent: React.FC = () => {
+  const isOnline = useOnline();
+
+  return (
+    <div>
+      {isOnline ? <p>Snippet Online</p> : <p>Snippet offline.</p>}
+    </div>
+  );
+};
+
+export default MyComponent;
+
+```
+## API
+
+```bash
+ useOnline()
+```
+The useOnline hook returns a boolean indicating whether the user is currently online or offline.
+
+### Returns:
+boolean: true if the user is online, false if the user is offline.
+
+#  3. useDarkmode
+To use the useForm hook in your React component, follow these steps:
+
+Import the hook:
+
+```bash
+  import { useDarkMode } from 'snippet-hook';
+
+```
+
+Use the hook within your component
+```bash
+import React from 'react';
+import { useDarkMode } from 'use-dark-mode-hook';
+
+
+//Note:- You can use your custom CSS also
+const MyComponent: React.FC = () => {
+  const [isDarkMode, toggleDarkMode] = useDarkMode();
+
+  return (
+    <div>
+      <button onClick={toggleDarkMode}>
+        {isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+      </button>
+    </div>
+  );
+};
+
+export default MyComponent;
+
+
+```
+## API
+```bash
+ useDarkMode()
+```
+The useDarkMode hook toggles between dark mode and light mode, storing the user's preference in localStorage.
+
+### Returns:
+An array containing:
+
+    isDarkMode: A boolean indicating whether dark mode is enabled.
+
+    toggleDarkMode: A function to toggle between dark and light mode.
 
 
 ## License
