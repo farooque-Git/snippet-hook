@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 # Hocrux (A Custom Hook)
+=======
+A simple and reusable custom hook for managing form state in React. This hook helps you manage form data, handle input changes, and reset the form with ease.
+>>>>>>> 4456f76 (Update README.md)
 
 A simple and reusable custom hook for managing form state in React. The useForm hook allows you to easily manage form data, handle input changes, and reset the form state.
 
@@ -12,6 +16,7 @@ You can install the package via npm or yarn:
 To deploy this package run
 
 ```bash
+<<<<<<< HEAD
   npm i hocrux
 ```
 
@@ -37,6 +42,25 @@ Import the hook:
 Use the hook within your component
 ```bash
   import React from 'react';
+=======
+npm install hocrux
+
+Using yarn:
+bash
+Copy code
+yarn add hocrux
+Usage
+Here’s how to use the useForm hook in your React project:
+
+1. Import the hook:
+tsx
+Copy code
+import { useForm } from 'hocrux';
+2. Use the hook in your component:
+tsx
+Copy code
+import React from 'react';
+>>>>>>> 4456f76 (Update README.md)
 import { useForm } from 'hocrux';
 
 const MyForm = () => {
@@ -69,6 +93,7 @@ const MyForm = () => {
     </form>
   );
 };
+<<<<<<< HEAD
 
 
 ```
@@ -86,6 +111,18 @@ formData: The current state of the form (an object containing the form field val
 handleChange: A function to handle input changes. It updates the form state when an input field changes.
 
 resetForm: A function to reset the form to its initial values.
+=======
+3. Explanation:
+useForm returns:
+
+formData: The current form data.
+handleChange: A function to update the form data when an input changes.
+resetForm: A function to reset the form to its initial values.
+API
+useForm(initialValues: object)
+initialValues: An object containing the initial values for the form fields.
+Returns an array with three elements:
+>>>>>>> 4456f76 (Update README.md)
 
 ## Parameters:
 
@@ -105,6 +142,7 @@ handleChange: A function to update the form state on input change.
 resetForm: A function to reset the form to its initial values.
 
 
+<<<<<<< HEAD
 ## License
 
 MIT License © [Farooque Ali](https://portfolio-main-virid-six.vercel.app/)
@@ -125,3 +163,15 @@ Customization: Review any other details that might need adjusting, such as addit
 
 
 ### Let me know if you need further modifications!
+=======
+### Key Improvements:
+1. **Formatting**: Fixed code blocks and made sure the syntax for markdown, JavaScript, and TypeScript is correct.
+2. **Clarity**: Added more explanatory text to the "Usage" and "API" sections to help users understand how to implement the hook.
+3. **License**: The `MIT` license section is now properly formatted. Replace `[Your Name]` with your actual name for copyright purposes.
+
+### Next Steps:
+- **Customization**: Make sure to update the **license** section with your name and check if any other details in the package need adjusting.
+- **Testing**: Ensure your README provides all the necessary info users need to get started with your package.
+
+Let me know if you'd like further adjustments!
+>>>>>>> 4456f76 (Update README.md)
