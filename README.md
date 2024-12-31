@@ -51,8 +51,7 @@ Use the hook within your component
 npm install hocrux
 
 # Custom Hook
-bash
-Copy code
+
 yarn add hocrux
 Usage
 Here’s how to use the useForm hook in your React project:
